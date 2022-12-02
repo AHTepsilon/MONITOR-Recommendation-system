@@ -232,7 +232,7 @@ while True:
 
         finalPercentage = 100 - ((abs(percentage1) + abs(percentage2) + abs(percentage3))*100)
 
-        window['-PERCENT-'].update(str(round(finalPercentage, 2)))
+        window['-PERCENT-'].update(str(round(abs(finalPercentage), 2)))
 
     try:
         if event == 'Definir los monitores más compatibles':
